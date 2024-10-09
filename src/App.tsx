@@ -23,11 +23,13 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Sponsors /> */}
-      <HowItWorks />
       <Features />
-      <Services />
 
       <CodeSnippet />
+      <HowItWorks />
+      {/*<Services /> */}
+
+
 
       {/*<Cta />*/}
       {/* <Testimonials /> */}
