@@ -65,11 +65,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <img
+{/*        <img
           src={cubeLeg}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
-        />
+/> */}
       </div>
     </section>
   );
