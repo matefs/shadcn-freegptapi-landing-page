@@ -69,8 +69,8 @@ export const Features = () => {
             <img
               src={image}
               alt="About feature"
-              className="w-[200px] lg:w-[300px] mx-auto mt-4 rounded-lg"
-            />
+              className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px] mx-auto mt-4 rounded-lg"
+              />
 
             <CardHeader>
               <CardTitle>{title}</CardTitle>
