@@ -12,35 +12,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: 'Responsive Design',
+    title: 'Plug-and-Play Integration ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
+      'Easily integrate with a simple GET request, making it perfect for quick setups and rapid development of your projects.',
     image: image4,
   },
   {
-    title: 'Intuitive user interface',
+    title: 'Cost-Free Project Development ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
+      'Bring your ideas to life and create innovative projects without spending a dime. Leverage the power of our API to build, scale, and succeed—completely free of charge!',
     image: image3,
   },
   {
-    title: 'AI-Powered insights',
+    title: 'No API Key Required',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
+      'Eliminate the hassle of signing up and managing API keys. Start using the API instantly, without any need for authentication or login.',
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  'Dark/Light theme',
-  'Reviews',
-  'Features',
-  'Pricing',
-  'Contact form',
-  'Our team',
-  'Responsive design',
-  'Newsletter',
-  'Minimalist',
+  'No API Key required',
+  'Fast response times (1 to 3 seconds)',
+  'GET requests for easy integration',
+  'Swagger documentation',
+  'Chatbot support',
+  'Content generation',
+  'Learning tool integration',
+  'No authentication required',
+  'Completely free to use',
 ];
 
 export const Features = () => {
@@ -69,8 +69,8 @@ export const Features = () => {
             <img
               src={image}
               alt="About feature"
-              className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px] mx-auto mt-4 rounded-lg"
-              />
+              className="w-[200px] lg:w-[300px] mx-auto mt-4 rounded-lg"
+            />
 
             <CardHeader>
               <CardTitle>{title}</CardTitle>
