@@ -51,7 +51,7 @@ export const Hero = () => {
           </div> */}
       <div className="z-10">
         <img
-          className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]"
+          className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[500px] h-[500px]"
           src="https://raw.githubusercontent.com/matefs/Free-gpt-api-no-key-needed/refs/heads/main/assets/Icon%20with%20Shadow.png"
         />
       </div>
