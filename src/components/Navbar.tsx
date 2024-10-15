@@ -94,7 +94,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://github.com/matefs/Free-gpt-api-no-key-needed"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: 'secondary',
@@ -127,7 +127,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/matefs/Free-gpt-api-no-key-needed"
               target="_blank"
               className={`border ${buttonVariants({ variant: 'secondary' })}`}
             >

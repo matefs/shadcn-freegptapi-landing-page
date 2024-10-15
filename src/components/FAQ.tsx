@@ -13,33 +13,28 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "Is this API really free or will I have to sell my kidney?",
+    answer: "Relax, your kidney is safe! The API is 100% free. You only need to sacrifice your time and mental sanity to use it.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "Can I use the API to create my own ChatGPT and take over the world?",
+    answer: "Easy there, Pinky! The API is powerful, but not that powerful. You can create amazing applications, but world domination is still out of reach... for now.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+    question: "Does the API have a request limit? Or can I spam it until the server catches fire?",
+    answer: "There is a limit, yes. Think of it as a challenge: how many requests can you make before the API starts ignoring you like your high school crush?",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "If I ask nicely, will the API do my homework for me?",
+    answer: "The API is smart, but it's not your mom. It can help you understand your homework, but it won't do it for you. Happy studying!",
     value: "item-4",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "Does the API understand sarcasm? Or do I need to be as direct as a slap in the face?",
+    answer: "The API understands sarcasm about as well as a cat understands quantum physics. Better be direct, unless you want hilarious and totally out-of-context responses.",
     value: "item-5",
   },
 ];
@@ -89,3 +84,4 @@ export const FAQ = () => {
     </section>
   );
 };
+
