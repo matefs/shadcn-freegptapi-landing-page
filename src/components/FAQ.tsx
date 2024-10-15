@@ -24,7 +24,7 @@ const FAQList: FAQProps[] = [
   },
   {
     question: "Does the API have a request limit? Or can I spam it until the server catches fire?",
-    answer: "There is a limit, yes. Think of it as a challenge: how many requests can you make before the API starts ignoring you like your high school crush?",
+    answer: "There is a 5 requests per minute limite on free version.",
     value: "item-3",
   },
   {

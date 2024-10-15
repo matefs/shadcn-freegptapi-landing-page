@@ -10,33 +10,32 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Free gpt api
+              Unleash Your Inner Developer
             </span>{' '}
-            landing page
+            with
           </h1>{' '}
-          for{' '}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              React
-            </span>{' '}
-            developers
+              Free GPT API
+            </span>
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Build your React landing page effortlessly with the required sections
-          to your project.
+          Bring life to your projects without breaking the bank! No API Key Drama!
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
+          <a href="/docs">
+            <Button className="w-full md:w-1/3">Let's Dive In!</Button>
+          </a>
 
           <a
             rel="noreferrer noopener"
             href="https://github.com/matefs/Free-gpt-api-no-key-needed"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
-              variant: 'outline',
+              variant: "outline",
             })}`}
           >
             Github Repository
@@ -45,10 +44,6 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Hero cards sections */}
-      {/*<div className="z-10">
-        <HeroCards />
-          </div> */}
       <div className="z-10">
         <img
           className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[500px] h-[500px]"
@@ -56,7 +51,6 @@ export const Hero = () => {
         />
       </div>
 
-      {/* Shadow effect */}
       <div className="shadow"></div>
     </section>
   );
