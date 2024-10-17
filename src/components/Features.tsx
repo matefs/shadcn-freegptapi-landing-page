@@ -1,8 +1,8 @@
 import { Badge } from './ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import image from '../assets/cat-junior.jpeg';
-import image3 from '../assets/rich-developer.jpeg';
-import image4 from '../assets/tech-woman.jpeg';
+// import image from '../assets/cat-junior.jpeg';
+// import image3 from '../assets/rich-developer.jpeg';
+// import image4 from '../assets/tech-woman.jpeg';
 
 interface FeatureProps {
   title: string;
@@ -15,19 +15,19 @@ const features: FeatureProps[] = [
     title: 'Plug-and-Play Integration ',
     description:
       'Easily integrate with a simple GET request, making it perfect for quick setups and rapid development of your projects.',
-    image: image4,
+    image: "https://raw.githubusercontent.com/matefs/Free-gpt-api-no-key-needed/refs/heads/main/assets/tech-woman-CG8g7r62.jpeg",
   },
   {
     title: 'Cost-Free Project Development ',
     description:
       'Bring your ideas to life and create innovative projects without spending a dime. Leverage the power of our API to build, scale, and succeed—completely free of charge!',
-    image: image3,
+    image: "https://raw.githubusercontent.com/matefs/Free-gpt-api-no-key-needed/refs/heads/main/assets/rich-developer-uV_Z4yMa.jpeg",
   },
   {
     title: 'No API Key Required',
     description:
       'Eliminate the hassle of signing up and managing API keys. Start using the API instantly, without any need for authentication or login.',
-    image: image,
+    image: "https://raw.githubusercontent.com/matefs/Free-gpt-api-no-key-needed/refs/heads/main/assets/cat-junior-CkzY3Ilx.jpeg",
   },
 ];
 
